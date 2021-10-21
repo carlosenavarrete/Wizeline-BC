@@ -1,7 +1,5 @@
 import { Selector, t } from 'testcafe';
 
-
-
 class CheckOutPage{
 
 constructor(){
@@ -11,21 +9,13 @@ constructor(){
     this.continuebtn = Selector('#continue')
 }
 
-async fillandcheckout(firstname,lastname,postalcode){
 
-    
+async fillandcheckout(firstname,lastname,postalcode){   
     await t
     .typeText( this.firstname, firstname)
     .typeText(this.lastname, lastname)
     .typeText(this.postalcode,postalcode)
     .click(this.continuebtn)
-
 }
-
-
-
-
 }
-
-
 export default new CheckOutPage();

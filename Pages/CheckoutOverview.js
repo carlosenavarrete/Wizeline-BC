@@ -1,7 +1,5 @@
 import { Selector, t } from 'testcafe';
 
-
-
 class CheckOutOverviewPage{
 
 constructor(){
@@ -9,18 +7,9 @@ constructor(){
 }
 
 async FinishCheckout(){
-
     await t
     .click(this.finishbtn)
-
-    
-
 }
-
-
-
-
 }
-
 
 export default new CheckOutOverviewPage();

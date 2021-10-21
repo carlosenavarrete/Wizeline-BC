@@ -1,7 +1,5 @@
 import { Selector, t } from 'testcafe';
 
-
-
 class InventoryPage{
 
 constructor(){
@@ -44,7 +42,6 @@ async logoutuser(){
     .click(this.menubtn)
     .click(this.logoutbtn)
 }
-
 }
 
 export default new InventoryPage();
