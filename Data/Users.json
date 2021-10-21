@@ -1,0 +1,23 @@
+{
+    "User":
+        {
+            "validUsername": 
+            {
+                 "userName": "standard_user",
+                 "password": "secret_sauce"
+                 
+            },
+            "invalidUsername": 
+            {
+                 "userName": "locked_out_user",
+                 "password": "secret_sauce",
+                 "errorMessage": "Epic sadface: Sorry, this user has been locked out." 
+            },
+            "customer": 
+            {
+                 "firstName": "Carlos",
+                 "lastName": "Navarrete",
+                 "zipCode": "12345" 
+            }
+        }
+}
