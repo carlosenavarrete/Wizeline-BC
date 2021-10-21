@@ -1,7 +1,7 @@
 # Wizeline-BC
 QA Automation Bootcamp
 
-# SauceDemoTest
+# SauceDemo Challenge
 
 QA Bootcamp Challenge </br>
 The tests in this framework are for the web page https://www.saucedemo.com/
